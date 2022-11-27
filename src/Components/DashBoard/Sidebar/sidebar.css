@@ -1,0 +1,82 @@
+* {
+    border: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --hue: 223;
+    --hue2: 13;
+    --bg: hsl(var(--hue), 10%, 90%);
+    --fg: hsl(var(--hue), 10%, 10%);
+    --primary: hsl(var(--hue), 90%, 55%);
+    --red: hsl(var(--hue2), 90%, 55%);
+    --trans-dur: 0.3s;
+    font-size: calc(16px + (20 - 16) * (100vw - 320px) / (1280 - 320));
+}
+
+body,
+button,
+input {
+    font: 1em/1 "DM Sans", sans-serif;
+}
+
+.left_side_nav {
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100vh;
+    width: 15vw;
+}
+
+.nav__items {
+    list-style: none;
+    margin: 0 0 3em 0;
+}
+
+.nav__item-box {
+    background-color: hsla(var(--hue), 90%, 55%, 0);
+    border-radius: 0.75em;
+    color: hsl(var(--hue), 20%, 55%);
+    display: flex;
+    align-items: center;
+    padding: 0.75em;
+    text-align: left;
+    text-decoration: none;
+    cursor: pointer;
+    width: 168px;
+}
+
+.nav__item-box:hover {
+    background-color: hsla(var(--hue), 90%, 55%, 0.1);
+    color: #0da18e;
+
+}
+
+.nav__item-text {
+    margin-left: 0.75em;
+    font-size: 15px;
+}
+
+.right_section {
+    background-color: var(--bg);
+    color: var(--fg);
+    height: 100vh;
+    width: 100vw;
+}
+
+.user_card {
+    overflow: scroll;
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+    background-color: white;
+    height: 96vh;
+    margin: 15px;
+    padding: 26px;
+}
+
+.user_details {
+    color: rgba(0, 0, 0, 0.687);
+}

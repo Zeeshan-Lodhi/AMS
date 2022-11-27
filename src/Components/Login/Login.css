@@ -1,0 +1,38 @@
+.login {
+    background: #14BAA4;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_card {
+    padding: 37px;
+    background-color: white;
+    width: 339px;
+    height: 356px;
+    border-radius: 10px;
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+    font-size: 14px;
+}
+
+.login_title {
+    color: #0da18e;
+}
+
+.form-group {
+    font-size: 15px;
+    margin-bottom: 14px;
+}
+
+.form-control {
+    height: 40px;
+    font-size: 13px;
+}
+
+.submit_login {
+    background-color: #0da18e !important;
+    font-size: 14px;
+}

@@ -1,0 +1,20 @@
+.navbar-collapse {
+    flex-grow: 0 !important;
+}
+
+.navbar {
+    padding: 11px 35px;
+    background-color: #0da18e !important;
+}
+
+.bg-primary {
+    border-color: #078a78 !important;
+}
+
+.dropdown-menu {
+    min-width: 8rem;
+}
+
+.dropdown-item {
+    text-align: center;
+}
